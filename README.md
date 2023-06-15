@@ -1,1 +1,1 @@
-# Python_errands
+python practices
