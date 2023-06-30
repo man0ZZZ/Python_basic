@@ -8,6 +8,8 @@ Original file is located at
 
 #case study(Employee master list)
 
+# Employee Management System
+
 
 ##Write a function which takes in 5 arguments id,first name,last name,salary,department and puts all details in list if ID already not exists
 ## 1 Add employee
