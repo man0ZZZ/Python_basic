@@ -70,7 +70,7 @@ print(len(df1.index))
 
 
 # In[9]:
-
+# creating a label column with value 1 if the closing price have increased the next day, and 0 else
 
 label=[]
 for i in range(len(df1.index)):
@@ -104,7 +104,7 @@ df1=df1.drop(df1.index[-1], axis=0)
 
 
 # In[13]:
-
+## getting all the important Stock Indicators for prediction
 
 df1['EMA_20'] = talib.EMA(df1['Close'], timeperiod=20)
 df1['SMA_20'] = talib.SMA(df1['Close'], timeperiod=20)
